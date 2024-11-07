@@ -28,7 +28,6 @@ export const deleteHistoryAPI = async (id)=>{
 }
 
 
-
 //removeVideosAPi - delete http request  called by VideoCard component when user clicks on the delete button
 export const removeVideosAPI = async (id)=>{
     return await commonAPI("DELETE",`${SERVERURL}/uploadVideos/${id}`,{})
